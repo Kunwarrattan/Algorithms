@@ -87,4 +87,28 @@ public class LinkedListBasicOperations<T> {
         listBasicOperations.addToEnd(32);
     }
 
+    public void dummyCycleIntegerData(LinkedListBasicOperations<Integer> listBasicOperations) {
+
+        listBasicOperations.addToBeginning(40);
+        listBasicOperations.addToBeginning(11);
+        listBasicOperations.addToBeginning(12);
+        listBasicOperations.addToBeginning(232);
+        listBasicOperations.addToEnd(13);
+        listBasicOperations.addToEnd(121);
+        listBasicOperations.addToEnd(3);
+        listBasicOperations.addToEnd(32);
+
+        Node curr = head;
+        int count = 0;
+        Node temp = null;
+        while (curr.next != null) {
+            if (count == 3) {
+                temp = curr;
+            }
+            count++;
+            curr = curr.next;
+        }
+        curr.next = temp;
+    }
+
 }

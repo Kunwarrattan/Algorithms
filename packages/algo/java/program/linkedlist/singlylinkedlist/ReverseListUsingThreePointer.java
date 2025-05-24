@@ -3,7 +3,7 @@ package packages.algo.java.program.linkedlist.singlylinkedlist;
 import packages.algo.java.program.linkedlist.util.LinkedListBasicOperations;
 import packages.algo.java.program.linkedlist.util.Node;
 
-public class ReverseListUsingThreePointerMethod {
+public class ReverseListUsingThreePointer {
 
     public void reverse(LinkedListBasicOperations<Integer> singlyLinkedListOperations) {
 
@@ -25,7 +25,7 @@ public class ReverseListUsingThreePointerMethod {
         singlyLinkedListOperations.dummyIntegerData(singlyLinkedListOperations);
         singlyLinkedListOperations.traverse();
 
-        ReverseListUsingThreePointerMethod reverseListUsingThreePointerMethod = new ReverseListUsingThreePointerMethod();
+        ReverseListUsingThreePointer reverseListUsingThreePointerMethod = new ReverseListUsingThreePointer();
         System.out.println("");
         reverseListUsingThreePointerMethod.reverse(singlyLinkedListOperations);
         singlyLinkedListOperations.traverse();
