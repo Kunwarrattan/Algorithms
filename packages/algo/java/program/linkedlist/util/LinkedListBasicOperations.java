@@ -3,7 +3,8 @@ package packages.algo.java.program.linkedlist.util;
 public class LinkedListBasicOperations<T> {
     public Node<T> head;
 
-    public void addToEnd(T data) {
+    public void
+    addToEnd(T data) {
         Node node = new Node(data);
         if (head == null) {
             head = node;
@@ -71,6 +72,7 @@ public class LinkedListBasicOperations<T> {
     }
 
     public void dummyIntegerData(LinkedListBasicOperations<Integer> listBasicOperations) {
+        listBasicOperations.addToBeginning(12);
         listBasicOperations.addToBeginning(10);
         listBasicOperations.addToBeginning(20);
         listBasicOperations.addToBeginning(130);
@@ -93,10 +95,10 @@ public class LinkedListBasicOperations<T> {
         listBasicOperations.addToBeginning(11);
         listBasicOperations.addToBeginning(12);
         listBasicOperations.addToBeginning(232);
-        listBasicOperations.addToEnd(13);
-        listBasicOperations.addToEnd(121);
-        listBasicOperations.addToEnd(3);
-        listBasicOperations.addToEnd(32);
+        listBasicOperations.addToBeginning(13);
+        listBasicOperations.addToBeginning(121);
+        listBasicOperations.addToBeginning(3);
+        listBasicOperations.addToBeginning(32);
 
         Node curr = head;
         int count = 0;
