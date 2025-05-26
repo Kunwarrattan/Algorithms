@@ -1,7 +1,7 @@
 package packages.com.practice.programs.string;
 
 /**
- * CheckPalindromeString - TODO: Implement this program
+ * CheckPalindromeString
  */
 public class CheckPalindromeString {
     boolean isPalindrome(String str) {

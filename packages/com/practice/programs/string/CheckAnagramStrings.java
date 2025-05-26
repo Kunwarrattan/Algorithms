@@ -25,5 +25,6 @@ public class CheckAnagramStrings {
         CheckAnagramStrings c = new CheckAnagramStrings();
         System.out.println(c.isAnagram("abca", "bcad"));
         System.out.println(c.isAnagram("abc", "bca"));
+        System.out.println(c.isAnagram("abc", "abca"));
     }
 }

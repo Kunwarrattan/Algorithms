@@ -1,8 +1,8 @@
 package packages.com.practice.programs.string;
 
 /**
- * CapitalizeWordsInString - TODO: Implement this program
+ * CapitalizeWordsInString
  */
 public class CapitalizeWordsInString {
-    // Implementation pending
+
 }
