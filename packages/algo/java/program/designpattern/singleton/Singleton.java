@@ -1,7 +1,7 @@
 package packages.algo.java.program.designpattern.singleton;
 
 public class Singleton {
-    private static Singleton instance;
+    private static volatile Singleton instance;
 
     private Singleton() {
     }
